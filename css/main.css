@@ -82,7 +82,39 @@ img {
 /* second section */
 .bg-img {
   margin-top: 50px;
+  margin-bottom: 50px;
   background-repeat: no-repeat;
   background-image: url(/images/dream-bg.png);
   background-position: right;
+}
+.third-sec {
+  margin: 100px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+.third-sec {
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.third-sec .boxs {
+  gap: 50px;
+}
+.third-sec .boxs > div {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.first-div {
+  border-left: 6px solid orange;
+}
+.second-div {
+  border-left: 6px solid rgb(0, 38, 255);
+}
+.third-sec .boxs > div h1 {
+  font-size: 30px;
 }
