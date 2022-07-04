@@ -1,4 +1,77 @@
-body{
-    margin: 0;
-    background: #000;
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+h3 {
+  font-weight: 600;
+}
+.text-orange {
+  color: orange;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.desc,
+.div-img {
+  margin-top: 50px;
+}
+.desc p {
+  color: gray;
+}
+.top-banner {
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
+  margin-top: 0;
+}
+.d-flex {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+}
+.welcome-div {
+  margin-bottom: 60px;
+}
+
+.welcome-div h1 {
+  margin: 0 auto;
+}
+
+.link-btn {
+  text-decoration: none;
+  color: white;
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+img {
+  width: 100%;
+}
+.div-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-img img {
+  width: 80%;
 }
