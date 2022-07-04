@@ -78,6 +78,10 @@ img {
 .div-img img {
   width: 80%;
 }
+.second-sec img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 
 /* second section */
 .bg-img {
@@ -117,4 +121,12 @@ img {
 }
 .third-sec .boxs > div h1 {
   font-size: 30px;
+}
+
+.third-sec .boxs > div p {
+  color: gray;
+}
+
+footer {
+  margin: 20px 0;
 }
